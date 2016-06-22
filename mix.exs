@@ -31,7 +31,7 @@ defmodule PhoenixSwoosh.Mixfile do
   end
 
   defp deps do
-    [{:swoosh, "~> 0.1"},
+    [{:swoosh, "~> 0.3"},
      {:phoenix, "~> 1.0 or ~> 1.2.0-rc"},
      {:phoenix_html, "~> 2.2"},
      {:credo, "~> 0.3", only: [:dev, :test]},
